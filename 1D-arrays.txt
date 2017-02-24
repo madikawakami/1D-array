@@ -10,6 +10,8 @@ var cat = [2, 4, 6, 8];
 
 console.log(cat[0] + " " + cat[1]);
 
+it would take the first number and the second number out the array. so, it would  be 2 4.
+
 3) What is the output of the following code fragment?
 
 var y = [ , , , , , , , , , ];
@@ -19,14 +21,20 @@ y[1] = 88;
 
 console.log(y[0] + " " + y[1] + " " + y[5]);
 
+it would come our to 34 88 undefined
+
 4) What is the output of the following code fragment?
 
 var zip = [7, 3, 4, 1, 9];
 
 console.log(zip[2+1]);
 
+It would come out to 1.
+
 5) What is the output of the following code fragment?
 
 var x = [7, 3, 4, , , , , , ];
 
 console.log((x[0] + x[1]) + " " + x[5]);
+
+it would come out to 10 undefined.
